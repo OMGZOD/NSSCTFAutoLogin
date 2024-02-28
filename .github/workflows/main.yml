@@ -3,7 +3,7 @@ name: Run
 on:
   schedule:
     # 每天早上10点运行
-    - cron: "0 1 * * *"
+    - cron: "0 0 * * *"
   push:
 permissions:
   contents: read
